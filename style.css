@@ -14,7 +14,7 @@
   height: 750px;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   background-color: #6883cc;
-  background-image: url("../images/header.jpg");
+  background-image: url("/images/header.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -80,7 +80,7 @@
   float: none;
 }
 
-.events, .timeline, .things-do {
+.registry, .events, .timeline, .things-do {
   margin: 80px 0;
 }
 
@@ -91,16 +91,29 @@
   margin-bottom: 15px;
 }
 
+.travel {
+  background: #74634A;
+  color: white;
+}
+
 .travel i {
   font-size: 85px;
-  color: white;
-  background: black;
+  color: #2A2C39;
+  background: #74634A;
   padding: 10px;
 }
 
 .travel ul {
   padding: 0;
   list-style: none;
+}
+
+.travel ul li {
+  margin-bottom: 10px;
+}
+
+.t-acc {
+  text-align: center;
 }
 
 .things-do {
