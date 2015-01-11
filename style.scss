@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.center  { 
+ text-align: center;
+   margin: 0 auto 25px;
+   float: none;
+}
+.mast{
+	position:relative;
+	padding:80px 15px;
+	color:#FFF;
+	text-align:center;
+	height:750px;
+	text-shadow:0 1px 0 rgba(0,0,0,.1);
+	background-color:#6883cc;
+	background-image:url("../images/header.jpg");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	}
+
+.mast .container{
+	animation:fadein 2s;
+	-moz-animation:fadein 2s;
+	-webkit-animation:fadein 2s;
+	-o-animation:fadein 2s;
+	}
+
+	.logo {
+padding: 45px 0;
+text-align: center;
+}
+.logo h1 {
+  font-size: 100px;
+  color:#FFF;
+}
+.logo-wrapper i {
+  font-size: 100px;
+  margin: 30px 0;
+  color: white;
+}
+
+ .vintage {
+font-family: 'Open Sans', sans-serif;
+  font-size:60px;
+  text-shadow: 5px 5px 0px white, 8px 8px 0px #6C7A89;
+  color:#ABB7B7;
+  //transform: rotate(-13deg);
+ }
+
+
+#nav {
+  width: 100%;
+  position:static;
+  top:-32px;
+}
+
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
+
+.navbar-inverse {
+background-color: white;
+border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #74634A;
+}
+.navbar-nav.nav-justified > li {
+float: none;
+}
+.events, .timeline, .things-do {
+	margin:80px 0; 
+}
+
+.timeline .time {
+	font-family: 'Abril Fatface', cursive;
+	font-size:18px;
+	line-height:30px;
+	margin-bottom: 15px;
+}
+
+.travel i {
+	font-size:85px;
+	color:white;
+	background: black;
+	padding:10px;
+}
+
+.travel ul {
+	padding:0;
+	list-style: none;
+}
+.things-do{
+	color:white;
+	background:#2A2C39;
+}
+
+
+h2 {
+	font-family: 'Abril Fatface', cursive;
+	font-size:36px;
+	line-height:47px;
+	margin-bottom: 15px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+}
