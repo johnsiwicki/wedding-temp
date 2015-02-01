@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500);
+body {
+  overflow-x: hidden; }
+
 .center {
   text-align: center;
   margin: 0 auto 25px;
@@ -68,7 +72,7 @@
 .navbar-nav.nav-justified > li {
   float: none; }
 
-.registry, .events, .timeline, .things-do {
+.registry, .events, .timeline, .things-do, .rsvp {
   margin: 80px 0; }
 
 .timeline .time {
@@ -79,7 +83,9 @@
 
 .travel {
   background: #74634A;
-  color: white; }
+  color: white;
+  font-family: "Source Code Pro";
+  padding: 40px 0; }
 
 .travel i {
   font-size: 35px;
@@ -87,15 +93,21 @@
   background: #74634A;
   padding: 10px; }
 
+.travel h2 {
+  font-family: "Source Code Pro"; }
+
 .travel h4 {
-  border-bottom: 1px dashed whitesmoke; }
+  font-size: 22px;
+  font-weight: bold;
+  color: #cacaca; }
 
 .travel ul {
   padding: 0;
   list-style: none; }
 
 .travel ul li {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 14px; }
 
 .t-acc {
   text-align: center; }
