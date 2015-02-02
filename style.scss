@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500);
 
 body {
 	overflow-x:hidden;
@@ -83,13 +82,13 @@ color: #74634A;
 .navbar-nav.nav-justified > li {
 float: none;
 }
-.registry, .events, .timeline, .things-do, .rsvp {
+.registry, .events, .timeline, .things-do, {
 	margin:80px 0; 
 }
 
 .timeline .time {
 	font-family: 'Abril Fatface', cursive;
-	font-size:18px;
+	font-size:22px;
 	line-height:30px;
 	margin-bottom: 15px;
 }
@@ -97,7 +96,6 @@ float: none;
 .travel {
 	background: #74634A;
 	color:white;
-	font-family: 'Source Code Pro', ;
 	padding: 40px 0;
 }
 
@@ -108,9 +106,6 @@ float: none;
 	padding:10px;
 }
 
-.travel h2 {
-	font-family: 'Source Code Pro', ;
-}
 
 .travel h4 {
 	font-size: 22px;
@@ -148,7 +143,10 @@ p {
 	font-size:16px;
 }
 
-
+.panel-group {
+	margin: 0  0 50px;
+	overflow: hidden;
+}
 
     .faqHeader {
         font-size: 27px;
