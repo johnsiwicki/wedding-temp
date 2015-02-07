@@ -71,6 +71,14 @@ body {
 .navbar-nav.nav-justified > li {
   float: none; }
 
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: black; }
+
+.navbar-inverse .navbar-nav > .active > a {
+  color: #74634A;
+  background-color: #FFF; }
+
 .registry, .events, .timeline, .things-do {
   margin: 80px 0; }
 
