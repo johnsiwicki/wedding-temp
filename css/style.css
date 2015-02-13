@@ -89,8 +89,6 @@ body {
   margin-bottom: 15px; }
 
 .travel {
-  background: #74634A;
-  color: white;
   padding: 40px 0; }
 
 .travel i {
@@ -101,8 +99,7 @@ body {
 
 .travel h4 {
   font-size: 22px;
-  font-weight: bold;
-  color: #cacaca; }
+  font-weight: bold; }
 
 .travel ul {
   padding: 0;
