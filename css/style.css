@@ -3,6 +3,9 @@
 body {
   overflow-x: hidden; }
 
+.row {
+  padding-top: 60px; }
+
 .center {
   text-align: center;
   margin: 0 auto 25px;
