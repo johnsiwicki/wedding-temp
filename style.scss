@@ -148,6 +148,11 @@ background-color: #FFF;
 }
 
 
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+}
+
 h2 {
 	font-family: 'Abril Fatface', cursive;
 	font-size:36px;
@@ -155,9 +160,19 @@ h2 {
 	margin-bottom: 15px;
 }
 
+
+h4 {
+	font-size:22px;
+	font-weight:normal;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
+}
+
+#event h2 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .panel-group {
@@ -193,4 +208,8 @@ p {
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
         color: #454444;
+    }
+
+    .footer {
+    	text-align: center;
     }
