@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  overflow-x: hidden; }
+
+.row {
+  padding-top: 60px; }
+
+.center {
+  text-align: center;
+  margin: 0 auto 25px;
+  float: none; }
+
+.mast {
+  position: relative;
+  padding: 80px 15px;
+  color: #FFF;
+  text-align: center;
+  height: 750px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background-color: #6883cc;
+  background-image: url("http://lovenowicki.us/assets/img/background-new.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.mast .container {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s; }
+
+.logo {
+  padding: 45px 0;
+  text-align: center; }
+
+.logo h1 {
+  font-size: 100px;
+  color: #FFF; }
+
+.logo-wrapper i {
+  font-size: 100px;
+  margin: 30px 0;
+  color: white; }
+
+.vintage {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  text-shadow: 5px 5px 0px white, 8px 8px 0px #6C7A89;
+  color: #ABB7B7; }
+
+#nav {
+  width: 100%;
+  position: static;
+  top: -32px; }
+
+#nav.affix {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  -webkit-transition: all .6s ease-in-out; }
+
+.navbar-inverse {
+  background-color: white;
+  border-color: #080808;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black; }
+
+.navbar-nav.nav-justified > li {
+  float: none; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: black; }
+
+.navbar-inverse .navbar-nav > .active > a {
+  color: black;
+  background-color: #FFF; }
+
+.registry, .events, .timeline, .things-do {
+  margin: 80px 0; }
+
+.timeline .time {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 15px; }
+
+.travel {
+  padding: 40px 0; }
+
+.travel i {
+  font-size: 35px;
+  color: #2A2C39;
+  background: #74634A;
+  padding: 10px; }
+
+.travel h4 {
+  font-size: 22px;
+  font-weight: bold; }
+
+.travel ul {
+  padding: 0;
+  list-style: none; }
+
+.travel ul li {
+  margin-bottom: 10px;
+  font-size: 14px; }
+
+.t-acc {
+  text-align: center; }
+
+.things-do {
+  color: white;
+  background: #2A2C39; }
+
+h1 {
+  font-family: 'Abril Fatface', cursive; }
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 36px;
+  line-height: 47px;
+  margin-bottom: 15px; }
+
+h4 {
+  font-size: 22px;
+  font-weight: normal; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; }
+
+#event h2 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+.panel-group {
+  margin: 0  0 50px;
+  overflow: hidden; }
+
+.faqHeader {
+  font-size: 27px;
+  margin: 20px; }
+
+.panel-heading [data-toggle="collapse"]:after {
+  float: right;
+  color: #F58723;
+  font-size: 18px;
+  line-height: 22px;
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #454444; }
+
+.footer {
+  text-align: center; }
