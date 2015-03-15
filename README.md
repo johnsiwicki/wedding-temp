@@ -1,1 +1,1 @@
-# Bootstrap Wedding Template
+# Website Template for My Wedding
